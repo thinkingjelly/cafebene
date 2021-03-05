@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/*헤더*/
+.hTop{
+    height:40px;
+    line-height:40px;
+    background:#282828;
+}
+.hTop a{
+    color:#fff;
+    font-size:12px;
+    font-weight:200;
+    display:block;
+}
+
+.util,.gnb{float:right;}
+.engBtn,.util li{float:left;}
+.engBtn a,.util li a{
+    padding:0 30px;
+    border-left:1px solid #000;
+}
+.engBtn{border-right:1px solid #000;}
+
+.find a{
+    background:url(../images/common/ico_find_store.gif) no-repeat right center;
+    padding-right:25px;
+}
+
+.hBottom{
+    height:80px;
+    line-height:80px;
+}
+.hBottom .logo,.fLogo{
+    width:150px;
+    float:left;
+    background:url(../images/common/logo.jpg) no-repeat center center;
+    background-size:100%;
+    text-indent:-9999px;
+}
+
+.gnb li{
+    float:left;
+    font-family:'NanumMyeongjo',serif;
+    font-weight:900;
+    padding-left:50px;
+}
+.gnb li a{
+    font-size:18px;
+    font-weight:900;
+    display:block;
+}
+
+/*푸터*/
+#footer{
+    color:#898989;
+}
+
+.fTop{
+    background:#282828;
+    position:relative;
+    padding:50px 0;
+}
+.topBtn{
+    width:102px;
+    height:39px;
+    line-height:46px;
+    background:url(../images/common/btn_go_top.png) no-repeat center center;
+    text-align:center;
+    font-family:'NanumMyeongjo',serif;
+    font-weight:900;
+    font-size:14px;
+    position:absolute;
+    top:-39px;
+    left:50%;
+    margin-left:-51px;
+}
+.topBtn a{
+    color:#898989;
+    display:block;
+}
+
+.fTop dl{
+    float:left;
+    margin-right:100px;
+}
+.fTop dt h3{
+    font-size:16px;
+    padding-bottom:20px;
+    background:url(../images/common/bar_snb.gif) no-repeat left bottom;
+    margin-bottom:20px;
+}
+.fTop dd{font-size:14px;}
+.fTop dd a{color:#898989;}
+
+.fBottom{
+    background:#1E1E1E;
+    font-size:14px;
+    font-weight:200;
+    padding:50px 0 80px;
+}
+.fBottomBox{position:relative;}
+
+.fBottom .fLogo{
+    height:30px;
+    background-image:url(../images/common/logo_foot.gif);
+    float:none;
+}
+
+.snsList{
+    position:absolute;
+    top:0;
+    right:0;
+}
+.snsList li{
+    float:left;
+    margin-left:5px;
+}
+.snsList img{width:30px;}
+
+.fInfo span{vertical-align:middle;}
+.fInfo span::after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:11px;
+    background:#666;
+    margin:0 10px;
+    vertical-align:middle;
+}
+.fList{margin-top:30px;}
+.fList a{color:#898989;}
+
+.copy{
+    font-family:'NanumMyeongjo',serif;
+    font-weight:900;
+    margin-top:50px;
+}

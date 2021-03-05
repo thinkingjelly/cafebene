@@ -1,0 +1,171 @@
+@charset "utf-8";
+/*메인슬라이더*/
+
+.mainSlider{
+    height:650px;
+    position:relative;
+    overflow:hidden;
+}
+.mainSlider img{
+    display:block;
+    position:absolute;
+    right:50%;
+    margin-right:-960px;
+}
+
+/*메인컨텐츠01*/
+.mainCon01{
+    background:#F5F5F5 url(../images/main/bg_bar_div.gif) no-repeat center center;
+    padding:50px 0;
+    text-align:center;
+}
+
+.con01Box{
+    display:inline-block;
+    text-align:left;
+}
+.con01Box>div{
+    float:left;
+    padding:0 50px;
+}
+
+div.con01L{padding-left:145px;}
+.con01L h3{
+    font-size:30px;
+    font-weight:900;
+    color:#7D2B00;
+    margin-bottom:20px;
+}
+
+.con01R p{
+    line-height:25px;
+    font-size:14px;
+    margin-bottom:30px;
+}
+
+.plusBtn{
+    width:40px;
+    height:40px;
+    background:url(../images/main/btn_more02.png) no-repeat center center;
+    background-size:cover;
+    text-indent:-9999px;
+}
+.plusBtn a{
+    height:100%;
+    display:block;
+}
+
+/*메인컨텐츠02*/
+.mainCon02{
+    padding:120px 0 50px 0;
+    background:url(../images/main/visual01.jpg) no-repeat center center;
+    background-attachment:fixed;
+    background-size:cover;
+    text-align:center;
+    color:#fff;
+}
+.mainCon02 h2{
+    font-family:'NotoSans',sans-serif;
+    font-weight:500;
+}
+.mainCon02 h2,.mainCon04 h2{
+    padding:0 20px;
+    background:url(../images/main/tit_line_bot.png) no-repeat center bottom;
+}
+.mainCon02 p,.mainCon04 p{
+    font-weight:100;
+    line-height:25px;
+    margin-top:20px;
+    font-size:12px;
+}
+p.con02SubTit,p.con04SubTit{font-size:14px;}
+.mainCon02 span,.mainCon04 span{display:block;}
+
+.mainCon02 .plusBtn,.mainCon04 .searchBtn{
+    background-image:url(../images/main/btn_more.png);
+    margin:80px auto 0;
+}
+
+/*메인컨텐츠03*/
+.mainCon03{
+    text-align:center;
+    margin:80px auto;
+}
+
+.con03Tit h2{color:#711b04;}
+.con03Tit p{margin:20px 0 30px;}
+
+.con03Menu li{
+    float:left;
+    position:relative;
+    margin-top:3px;
+    margin-left:3px;
+}
+.con03Menu li:first-child{margin-left:0;}
+.con03Menu li img{display:block;}
+
+.menuInfo{
+    width:100%;
+    position:absolute;
+    bottom:20px;
+    font-size:12px;
+}
+.menuInfo h3{
+    font-size:16px;
+    color:#7d645a;
+}
+
+/*메인컨텐츠04*/
+.mainCon04{
+    background-image:url(../images/main/visual02.jpg);
+    background-attachment:inherit;
+    padding:150px 0;
+}
+
+.mainCon04 .searchBtn{
+    width:360px;
+    background-image:url(../images/main/btn_find_store.png);
+}
+
+/*메인컨텐츠05*/
+.mainCon05{
+    background:#BEB4AF;
+    color:#fff;
+    text-align:center;
+    padding:50px 0;
+    line-height:40px;
+}
+
+.con05Tit{
+    font-family:'NanumMyeongjo',serif;
+    font-size:30px;
+    font-weight:900;
+}
+.con05Txt{margin:0 20px 0 50px;}
+.con05Btn{display:inline-block;}
+
+/*메인컨텐츠06*/
+.mainCon06{
+    background:url(../images/main/bg_visual.jpg) no-repeat center center;
+    padding:80px 0;
+}
+
+.con06List li{
+    width:25%;
+    height:150px;
+    float:left;
+    text-align:center;
+    padding:0 20px;
+    box-sizing:border-box;
+}
+.con06List h3{
+    font-size:18px;
+    color:#7D4638;
+    margin-bottom:10px;
+}
+.con06List h3 img,.con06List h3 span{vertical-align:middle;}
+.con06List h3 img{width:20px;}
+.con06List p{
+    font-size:14px;
+    font-weight:200;
+}
